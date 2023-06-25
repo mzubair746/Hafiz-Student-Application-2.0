@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quiz_option"
+            android:icon="@drawable/ic_quiz"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_quiz_result_option"
+            android:icon="@drawable/ic_quiz_result"
+            android:title="Quiz Result" />
+    </group>
+</menu>
