@@ -13,6 +13,23 @@
         android:theme="@style/Theme.Mapp"
         tools:targetApi="31">
         <activity
+            android:name=".ShowTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaskDBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".StudentVH"
+            android:exported="false" />
+        <activity
+            android:name=".StudentRecyclerViewAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ShowStudents"
+            android:exported="false"
+            android:label="@string/title_activity_show_students"
+            android:theme="@style/Theme.Mapp" />
+        <activity
             android:name=".insertRecords"
             android:exported="false" />
         <activity
