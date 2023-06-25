@@ -10,10 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Mapp"
+        android:theme="@style/Theme.MadrasazApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ShowTasksActivity"
+            android:name=".TaskRecyclerViewAdapter"
             android:exported="false" />
         <activity
             android:name=".TaskDBHelper"
@@ -25,15 +25,19 @@
             android:name=".StudentRecyclerViewAdapter"
             android:exported="false" />
         <activity
-            android:name=".ShowStudents"
-            android:exported="false"
-            android:label="@string/title_activity_show_students"
-            android:theme="@style/Theme.Mapp" />
-        <activity
-            android:name=".insertRecords"
+            android:name=".ShowTasksActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".ShowStudents"
+            android:exported="false" />
+        <activity
+            android:name=".InsertDailyTask"
+            android:exported="false" />
+        <activity
+            android:name=".DBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudent"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

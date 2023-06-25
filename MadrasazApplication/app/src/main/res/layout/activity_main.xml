@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+
+            android:text="Madarasa Application"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/add_student"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:backgroundTint="#2196F3"
+
+            />
+
+        <Button
+            android:id="@+id/show_students"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Show Students"
+            android:backgroundTint="#2196F3"
+            />
+
+        <Button
+            android:id="@+id/insert_std_record_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:text="Insert Record" />
+
+        <Button
+            android:id="@+id/show_student_record_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Student Record"
+            android:backgroundTint="#2196F3"
+            />
+
+        <!--Button
+            android:id="@+id/visit_github_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Visit Github" /-->
+
+        <ImageButton
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/iconmonstr_github_1"/>
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
